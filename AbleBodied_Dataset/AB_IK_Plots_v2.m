@@ -19,7 +19,7 @@ close all
 % load('fullNormDataNoTiltReal.mat');
 % load('fullErrDataNoTiltReal.mat');
 
-dataSetName = '10TiltLockedASIS50Conv';
+dataSetName = '10TiltLockedASIS2Conv';
 figDir = ['Figures\' dataSetName '\'];
 if ~exist(figDir, 'dir')
     mkdir(figDir);
@@ -56,17 +56,22 @@ errGenSlowMax = zeros(2,5*numSubj);
 errGenFast = zeros(2,5*numSubj);
 errGenFastMax = zeros(2,5*numSubj);
 
-
+allErrPref = cell(1,2);
+allErrFast = cell(1,2); 
+allErrSlow = cell(1,2); 
+allErrPrefMax = cell(1,2);
+allErrFastMax = cell(1,2); 
+allErrSlowMax = cell(1,2); 
 
 for subj = 1:numSubj
 %     for currSpeed = speed
         for placetype = 1:2
             errFast(placetype,subj) = fullErrData{subj}{1,4}{placetype}(1,3);
-            errFastStd(placetype,subj) = fullErrData{subj}{1,5}{placetype}(2,3);
+            errFastStd(placetype,subj) = fullErrData{subj}{1,4}{placetype}(2,3);
             errPref(placetype,subj) = fullErrData{subj}{2,4}{placetype}(1,3);
-            errPrefStd(placetype,subj) = fullErrData{subj}{2,5}{placetype}(2,3);
+            errPrefStd(placetype,subj) = fullErrData{subj}{2,4}{placetype}(2,3);
             errSlow(placetype,subj) = fullErrData{subj}{3,4}{placetype}(1,3);
-            errSlowStd(placetype,subj) = fullErrData{subj}{3,5}{placetype}(2,3);
+            errSlowStd(placetype,subj) = fullErrData{subj}{3,4}{placetype}(2,3);
             for trial = 1:5
                 errGenPref(placetype,trial + (5*(subj-1))) = fullErrData{subj}{2,3}{placetype,trial}(1,3);
                 errGenPrefMax(placetype,trial + (5*(subj-1))) = fullErrData{subj}{2,3}{placetype,trial}(3,3);
@@ -74,25 +79,50 @@ for subj = 1:numSubj
                 errGenFastMax(placetype,trial + (5*(subj-1))) = fullErrData{subj}{1,3}{placetype,trial}(3,3);
                 errGenSlow(placetype,trial + (5*(subj-1))) = fullErrData{subj}{3,3}{placetype,trial}(1,3);
                 errGenSlowMax(placetype,trial + (5*(subj-1))) = fullErrData{subj}{3,3}{placetype,trial}(3,3);
+                
+                
+                allErrPref{placetype} = cat(1,allErrPref{placetype}, fullErrData{subj}{2,2}{placetype,trial}(:,3)); 
+                allErrFast{placetype} = cat(1,allErrFast{placetype}, fullErrData{subj}{1,2}{placetype,trial}(:,3)); 
+                allErrSlow{placetype} = cat(1,allErrSlow{placetype}, fullErrData{subj}{3,2}{placetype,trial}(:,3)); 
+                allErrPrefMax{placetype} = cat(1,allErrPrefMax{placetype}, fullErrData{subj}{2,2}{placetype,trial}(:,4));
+                allErrFastMax{placetype} = cat(1,allErrFastMax{placetype}, fullErrData{subj}{1,2}{placetype,trial}(:,4)); 
+                allErrSlowMax{placetype} = cat(1,allErrSlowMax{placetype}, fullErrData{subj}{3,2}{placetype,trial}(:,4)); 
+              
             end
+
         end
 %     end
 end
 
-errGenPrefMean = mean(errGenPref,2);
-errGenPrefMaxMean = mean(errGenPrefMax,2);
-errGenPrefStd = std(errGenPref,0,2);
-errGenPrefMaxStd = std(errGenPrefMax,0,2);
+errGenPrefMean = [mean(allErrPref{1}); mean(allErrPref{2})];
+errGenPrefMaxMean = [mean(allErrPrefMax{1}); mean(allErrPrefMax{2})];
+errGenPrefStd = [std(allErrPref{1}); std(allErrPref{2})];
+errGenPrefMaxStd = [std(allErrPrefMax{1}); std(allErrPrefMax{2})];
 
-errGenFastMean = mean(errGenFast,2);
-errGenFastMaxMean = mean(errGenFastMax,2);
-errGenFastStd = std(errGenFast,0,2);
-errGenFastMaxStd = std(errGenFastMax,0,2);
+errGenFastMean = [mean(allErrFast{1}); mean(allErrFast{2})];
+errGenFastMaxMean = [mean(allErrFastMax{1}); mean(allErrFastMax{2})];
+errGenFastStd = [std(allErrFast{1}); std(allErrFast{2})];
+errGenFastMaxStd = [std(allErrFastMax{1}); std(allErrFastMax{2})];
 
-errGenSlowMean = mean(errGenSlow,2);
-errGenSlowMaxMean = mean(errGenSlowMax,2);
-errGenSlowStd = std(errGenSlow,0,2);
-errGenSlowMaxStd = std(errGenSlowMax,0,2);
+errGenSlowMean = [mean(allErrSlow{1}); mean(allErrSlow{2})];
+errGenSlowMaxMean = [mean(allErrSlowMax{1}); mean(allErrSlowMax{2})];
+errGenSlowStd = [std(allErrSlow{1}); std(allErrSlow{2})];
+errGenSlowMaxStd = [std(allErrSlowMax{1}); std(allErrSlowMax{2})];
+
+% errGenPrefMean = mean(errGenPref,2);
+% errGenPrefMaxMean = mean(errGenPrefMax,2);
+% errGenPrefStd = std(errGenPref,0,2);
+% errGenPrefMaxStd = std(errGenPrefMax,0,2);
+% 
+% errGenFastMean = mean(errGenFast,2);
+% errGenFastMaxMean = mean(errGenFastMax,2);
+% errGenFastStd = std(errGenFast,0,2);
+% errGenFastMaxStd = std(errGenFastMax,0,2);
+% 
+% errGenSlowMean = mean(errGenSlow,2);
+% errGenSlowMaxMean = mean(errGenSlowMax,2);
+% errGenSlowStd = std(errGenSlow,0,2);
+% errGenSlowMaxStd = std(errGenSlowMax,0,2);
 
 fprintf('complete\n')
 

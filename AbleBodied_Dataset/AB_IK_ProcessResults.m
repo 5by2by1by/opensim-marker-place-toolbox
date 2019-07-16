@@ -35,8 +35,8 @@ clc
 subjNames = {'S01','S02','S04','S05','S06','S08','S09','S10'};
 numSubj = length(subjNames);
 
-normDataSaveName = 'fullNormData10TiltLockedASIS50conv.mat';
-errDataSaveName = 'fullErrData10TiltLockedASIS50conv.mat';
+normDataSaveName = 'fullNormData10TiltLockedASIS3convTest.mat';
+errDataSaveName = 'fullErrData10TiltLockedASIS3convTest.mat';
 
 % Also define paths to individual subject and model folders in options structure
 for i = 1:numSubj
@@ -58,8 +58,8 @@ for i = 1:numSubj
 %     errorDir{i} = [subjDir{i} 'IKErrors\AutoPlaceNoTilt'];
 %     resultsDir{i} = [subjDir{i} 'IKResults\AutoPlaceNoTiltReal\'];
 %     errorDir{i} = [subjDir{i} 'IKErrors\AutoPlaceNoTiltReal'];    
-    resultsDir{i} = [subjDir{i} 'IKResults\AutoPlace10TiltLockedASIS50Conv\'];
-    errorDir{i} = [subjDir{i} 'IKErrors\AutoPlace10TiltLockedASIS50Conv'];   
+    resultsDir{i} = [subjDir{i} 'IKResults\AutoPlace10TiltLockedASIS3Conv\'];
+    errorDir{i} = [subjDir{i} 'IKErrors\AutoPlace10TiltLockedASIS3Conv'];   
 
     % specify where standard marker placement results are stored.
     resultsManualDir{i} = [subjDir{i} 'IKResults\StdMarkerPlaceMe\'];
@@ -231,7 +231,7 @@ for trial = 1:nTrials
     %         P = 101;
     %         Q = size(temp,1);
     %         x = resample(temp,P,Q);
-            temp = dynWindFilt(20,temp);
+%             temp = dynWindFilt(20,temp);
             x = norm2stance(temp);
 
             % store in appropriate cell
@@ -318,7 +318,7 @@ for speed = spFirst:spLast
 
                 % combined across trials using individual trial averages
                 for trial = 1:nTrials
-                    A(trial) = errData{speed,3}{placetype,trial}(2,var);                   
+                    A(trial) = errData{speed,3}{placetype,trial}(1,var);                   
                 end
                 errData{speed,5}{placetype}(2,var) = std(A);    % standard deviation
                 

@@ -1,264 +1,268 @@
-Constructing tool from setup file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\IKSetup\S10_P20_T26_IK_Settings.xml.
-
-Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis_50conv.osim
-               MODEL: SF_S10_Scaled
-         coordinates: 23
-              forces: 92
-           actuators: 92
-             muscles: 92
-            analyses: 0
-              probes: 0
-              bodies: 13
-              joints: 12
-         constraints: 0
-             markers: 51
-         controllers: 0
-  contact geometries: 0
-misc modelcomponents: 0
-Running tool .
-Loaded marker file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\MarkerData\FAST\S10_P20_T26.trc (51 markers, 414 frames)
-Frame 0 (t=0.478):	total squared error = 0.00454819, marker error: RMS=0.0100534, max=0.0348465 (Top.Head)
-Frame 1 (t=0.482167):	total squared error = 0.00447892, marker error: RMS=0.00997655, max=0.0345112 (Top.Head)
-Frame 2 (t=0.486333):	total squared error = 0.00440151, marker error: RMS=0.00988996, max=0.0343112 (Top.Head)
-Frame 3 (t=0.4905):	total squared error = 0.00432806, marker error: RMS=0.0098071, max=0.0340165 (Top.Head)
-Frame 4 (t=0.494667):	total squared error = 0.00424997, marker error: RMS=0.00971822, max=0.0337318 (Top.Head)
-Frame 5 (t=0.498833):	total squared error = 0.00417212, marker error: RMS=0.0096288, max=0.033503 (Top.Head)
-Frame 6 (t=0.503):	total squared error = 0.00409895, marker error: RMS=0.00954399, max=0.0332801 (Top.Head)
-Frame 7 (t=0.507167):	total squared error = 0.00402276, marker error: RMS=0.00945488, max=0.0330233 (Top.Head)
-Frame 8 (t=0.511333):	total squared error = 0.00395143, marker error: RMS=0.00937067, max=0.0328066 (Top.Head)
-Frame 9 (t=0.5155):	total squared error = 0.00388546, marker error: RMS=0.00929213, max=0.0326998 (Top.Head)
-Frame 10 (t=0.519667):	total squared error = 0.00379746, marker error: RMS=0.00918629, max=0.032409 (Top.Head)
-Frame 11 (t=0.523833):	total squared error = 0.00373477, marker error: RMS=0.00911015, max=0.0322747 (Top.Head)
-Frame 12 (t=0.528):	total squared error = 0.00368101, marker error: RMS=0.00904435, max=0.0321901 (Top.Head)
-Frame 13 (t=0.532167):	total squared error = 0.00362318, marker error: RMS=0.00897302, max=0.0320892 (Top.Head)
-Frame 14 (t=0.536333):	total squared error = 0.00357247, marker error: RMS=0.00891001, max=0.032 (Top.Head)
-Frame 15 (t=0.5405):	total squared error = 0.0035412, marker error: RMS=0.00887092, max=0.0320998 (Top.Head)
-Frame 16 (t=0.544667):	total squared error = 0.00347848, marker error: RMS=0.00879202, max=0.0319956 (Top.Head)
-Frame 17 (t=0.548833):	total squared error = 0.00344793, marker error: RMS=0.00875333, max=0.0320574 (Top.Head)
-Frame 18 (t=0.553):	total squared error = 0.00342467, marker error: RMS=0.00872375, max=0.0320906 (Top.Head)
-Frame 19 (t=0.557167):	total squared error = 0.00338679, marker error: RMS=0.00867537, max=0.0321173 (Top.Head)
-Frame 20 (t=0.561333):	total squared error = 0.0033734, marker error: RMS=0.0086582, max=0.0323095 (Top.Head)
-Frame 21 (t=0.5655):	total squared error = 0.00336909, marker error: RMS=0.00865267, max=0.0324605 (Top.Head)
-Frame 22 (t=0.569667):	total squared error = 0.00336741, marker error: RMS=0.00865051, max=0.0324592 (Top.Head)
-Frame 23 (t=0.573833):	total squared error = 0.00334165, marker error: RMS=0.00861736, max=0.0325801 (Top.Head)
-Frame 24 (t=0.578):	total squared error = 0.00334567, marker error: RMS=0.00862254, max=0.0328472 (Top.Head)
-Frame 25 (t=0.582167):	total squared error = 0.00335308, marker error: RMS=0.00863208, max=0.0330261 (Top.Head)
-Frame 26 (t=0.586333):	total squared error = 0.00336604, marker error: RMS=0.00864875, max=0.0330843 (Top.Head)
-Frame 27 (t=0.5905):	total squared error = 0.00336152, marker error: RMS=0.00864294, max=0.0333095 (Top.Head)
-Frame 28 (t=0.594667):	total squared error = 0.00337061, marker error: RMS=0.00865462, max=0.0333541 (Top.Head)
-Frame 29 (t=0.598833):	total squared error = 0.00339204, marker error: RMS=0.00868209, max=0.0337069 (Top.Head)
-Frame 30 (t=0.603):	total squared error = 0.00340651, marker error: RMS=0.00870058, max=0.0338031 (Top.Head)
-Frame 31 (t=0.607167):	total squared error = 0.00342705, marker error: RMS=0.00872678, max=0.0341294 (Top.Head)
-Frame 32 (t=0.611333):	total squared error = 0.00345367, marker error: RMS=0.00876061, max=0.0341711 (Top.Head)
-Frame 33 (t=0.6155):	total squared error = 0.00347731, marker error: RMS=0.00879053, max=0.0343358 (Top.Head)
-Frame 34 (t=0.619667):	total squared error = 0.00351488, marker error: RMS=0.00883789, max=0.0346072 (Top.Head)
-Frame 35 (t=0.623833):	total squared error = 0.00355679, marker error: RMS=0.00889043, max=0.0347382 (Top.Head)
-Frame 36 (t=0.628):	total squared error = 0.00360197, marker error: RMS=0.00894672, max=0.0349435 (Top.Head)
-Frame 37 (t=0.632167):	total squared error = 0.0036418, marker error: RMS=0.00899605, max=0.0349901 (Top.Head)
-Frame 38 (t=0.636333):	total squared error = 0.00369097, marker error: RMS=0.00905658, max=0.0350124 (Top.Head)
-Frame 39 (t=0.6405):	total squared error = 0.00375255, marker error: RMS=0.00913181, max=0.0351972 (Top.Head)
-Frame 40 (t=0.644667):	total squared error = 0.00381967, marker error: RMS=0.00921312, max=0.0353005 (Top.Head)
-Frame 41 (t=0.648833):	total squared error = 0.00385613, marker error: RMS=0.00925699, max=0.035219 (Top.Head)
-Frame 42 (t=0.653):	total squared error = 0.00390804, marker error: RMS=0.00931908, max=0.0352587 (Top.Head)
-Frame 43 (t=0.657167):	total squared error = 0.00395863, marker error: RMS=0.0093792, max=0.0353112 (Top.Head)
-Frame 44 (t=0.661333):	total squared error = 0.00401213, marker error: RMS=0.00944238, max=0.0352339 (Top.Head)
-Frame 45 (t=0.6655):	total squared error = 0.00405332, marker error: RMS=0.00949072, max=0.035167 (Top.Head)
-Frame 46 (t=0.669667):	total squared error = 0.00406653, marker error: RMS=0.00950618, max=0.0350661 (Top.Head)
-Frame 47 (t=0.673833):	total squared error = 0.00408564, marker error: RMS=0.00952849, max=0.0349339 (Top.Head)
-Frame 48 (t=0.678):	total squared error = 0.00409935, marker error: RMS=0.00954445, max=0.0348222 (Top.Head)
-Frame 49 (t=0.682167):	total squared error = 0.00410612, marker error: RMS=0.00955233, max=0.0346938 (Top.Head)
-Frame 50 (t=0.686333):	total squared error = 0.00411097, marker error: RMS=0.00955798, max=0.0345683 (Top.Head)
-Frame 51 (t=0.6905):	total squared error = 0.00410276, marker error: RMS=0.00954843, max=0.0343926 (Top.Head)
-Frame 52 (t=0.694667):	total squared error = 0.00409099, marker error: RMS=0.00953472, max=0.0345002 (Top.Head)
-Frame 53 (t=0.698833):	total squared error = 0.00407755, marker error: RMS=0.00951904, max=0.0342161 (Top.Head)
-Frame 54 (t=0.703):	total squared error = 0.00405336, marker error: RMS=0.00949077, max=0.0342234 (Top.Head)
-Frame 55 (t=0.707167):	total squared error = 0.00402448, marker error: RMS=0.0094569, max=0.0338795 (Top.Head)
-Frame 56 (t=0.711333):	total squared error = 0.00399655, marker error: RMS=0.00942403, max=0.0338226 (Top.Head)
-Frame 57 (t=0.7155):	total squared error = 0.00396693, marker error: RMS=0.00938904, max=0.0336901 (Top.Head)
-Frame 58 (t=0.719667):	total squared error = 0.00393083, marker error: RMS=0.00934622, max=0.033667 (Top.Head)
-Frame 59 (t=0.723833):	total squared error = 0.00390151, marker error: RMS=0.0093113, max=0.0336925 (Top.Head)
-Frame 60 (t=0.728):	total squared error = 0.003863, marker error: RMS=0.00926523, max=0.0334164 (Top.Head)
-Frame 61 (t=0.732167):	total squared error = 0.00383476, marker error: RMS=0.0092313, max=0.0334737 (Top.Head)
-Frame 62 (t=0.736333):	total squared error = 0.00379634, marker error: RMS=0.00918494, max=0.0331524 (Top.Head)
-Frame 63 (t=0.7405):	total squared error = 0.00376387, marker error: RMS=0.00914558, max=0.0330593 (Top.Head)
-Frame 64 (t=0.744667):	total squared error = 0.00373741, marker error: RMS=0.00911337, max=0.032939 (Top.Head)
-Frame 65 (t=0.748833):	total squared error = 0.0037199, marker error: RMS=0.009092, max=0.0331214 (Top.Head)
-Frame 66 (t=0.753):	total squared error = 0.00369159, marker error: RMS=0.00905734, max=0.0328707 (Top.Head)
-Frame 67 (t=0.757167):	total squared error = 0.00367522, marker error: RMS=0.00903723, max=0.0326932 (Top.Head)
-Frame 68 (t=0.761333):	total squared error = 0.00365524, marker error: RMS=0.00901263, max=0.0328282 (Top.Head)
-Frame 69 (t=0.7655):	total squared error = 0.00364816, marker error: RMS=0.0090039, max=0.032644 (Top.Head)
-Frame 70 (t=0.769667):	total squared error = 0.00364355, marker error: RMS=0.00899821, max=0.0326542 (Top.Head)
-Frame 71 (t=0.773833):	total squared error = 0.00364317, marker error: RMS=0.00899774, max=0.0326202 (Top.Head)
-Frame 72 (t=0.778):	total squared error = 0.00364992, marker error: RMS=0.00900607, max=0.032605 (Top.Head)
-Frame 73 (t=0.782167):	total squared error = 0.00366399, marker error: RMS=0.00902341, max=0.0326681 (Top.Head)
-Frame 74 (t=0.786333):	total squared error = 0.00367126, marker error: RMS=0.00903237, max=0.0325863 (Top.Head)
-Frame 75 (t=0.7905):	total squared error = 0.0036871, marker error: RMS=0.00905182, max=0.0325892 (Top.Head)
-Frame 76 (t=0.794667):	total squared error = 0.00371158, marker error: RMS=0.00908182, max=0.0327032 (Top.Head)
-Frame 77 (t=0.798833):	total squared error = 0.00372452, marker error: RMS=0.00909765, max=0.0325749 (Top.Head)
-Frame 78 (t=0.803):	total squared error = 0.00375014, marker error: RMS=0.00912888, max=0.03266 (Top.Head)
-Frame 79 (t=0.807167):	total squared error = 0.00377083, marker error: RMS=0.00915402, max=0.0327061 (Top.Head)
-Frame 80 (t=0.811333):	total squared error = 0.0037956, marker error: RMS=0.00918404, max=0.0327462 (Top.Head)
-Frame 81 (t=0.8155):	total squared error = 0.00381776, marker error: RMS=0.00921082, max=0.0327474 (Top.Head)
-Frame 82 (t=0.819667):	total squared error = 0.0038396, marker error: RMS=0.00923713, max=0.0327584 (Top.Head)
-Frame 83 (t=0.823833):	total squared error = 0.00386141, marker error: RMS=0.00926332, max=0.0328009 (Top.Head)
-Frame 84 (t=0.828):	total squared error = 0.00387689, marker error: RMS=0.00928187, max=0.0328163 (Top.Head)
-Frame 85 (t=0.832167):	total squared error = 0.00389376, marker error: RMS=0.00930205, max=0.032922 (Top.Head)
-Frame 86 (t=0.836333):	total squared error = 0.00391266, marker error: RMS=0.00932459, max=0.0328677 (Top.Head)
-Frame 87 (t=0.8405):	total squared error = 0.00392309, marker error: RMS=0.00933701, max=0.0329113 (Top.Head)
-Frame 88 (t=0.844667):	total squared error = 0.00393093, marker error: RMS=0.00934634, max=0.0329388 (Top.Head)
-Frame 89 (t=0.848833):	total squared error = 0.00393588, marker error: RMS=0.00935222, max=0.032955 (Top.Head)
-Frame 90 (t=0.853):	total squared error = 0.00394047, marker error: RMS=0.00935767, max=0.0330045 (Top.Head)
-Frame 91 (t=0.857167):	total squared error = 0.00393794, marker error: RMS=0.00935467, max=0.032976 (Top.Head)
-Frame 92 (t=0.861333):	total squared error = 0.00393871, marker error: RMS=0.00935559, max=0.0330272 (Top.Head)
-Frame 93 (t=0.8655):	total squared error = 0.00393464, marker error: RMS=0.00935075, max=0.0330636 (Top.Head)
-Frame 94 (t=0.869667):	total squared error = 0.00393269, marker error: RMS=0.00934842, max=0.0331384 (Top.Head)
-Frame 95 (t=0.873833):	total squared error = 0.00392335, marker error: RMS=0.00933732, max=0.033123 (Top.Head)
-Frame 96 (t=0.878):	total squared error = 0.00391496, marker error: RMS=0.00932733, max=0.0331291 (Top.Head)
-Frame 97 (t=0.882167):	total squared error = 0.00390359, marker error: RMS=0.00931378, max=0.0332101 (Top.Head)
-Frame 98 (t=0.886333):	total squared error = 0.00390295, marker error: RMS=0.00931301, max=0.0332349 (Top.Head)
-Frame 99 (t=0.8905):	total squared error = 0.0039012, marker error: RMS=0.00931093, max=0.0332518 (Top.Head)
-Frame 100 (t=0.894667):	total squared error = 0.00390006, marker error: RMS=0.00930956, max=0.0333223 (Top.Head)
-Frame 101 (t=0.898833):	total squared error = 0.00390933, marker error: RMS=0.00932062, max=0.0333794 (Top.Head)
-Frame 102 (t=0.903):	total squared error = 0.00393078, marker error: RMS=0.00934616, max=0.0334305 (Top.Head)
-Frame 103 (t=0.907167):	total squared error = 0.00395156, marker error: RMS=0.00937082, max=0.0335021 (Top.Head)
-Frame 104 (t=0.911333):	total squared error = 0.00399814, marker error: RMS=0.0094259, max=0.0335977 (Top.Head)
-Frame 105 (t=0.9155):	total squared error = 0.00404694, marker error: RMS=0.00948325, max=0.0336442 (Top.Head)
-Frame 106 (t=0.919667):	total squared error = 0.00411871, marker error: RMS=0.00956697, max=0.0338016 (Top.Head)
-Frame 107 (t=0.923833):	total squared error = 0.00419223, marker error: RMS=0.00965198, max=0.0338158 (Top.Head)
-Frame 108 (t=0.928):	total squared error = 0.00428355, marker error: RMS=0.00975654, max=0.0338663 (Top.Head)
-Frame 109 (t=0.932167):	total squared error = 0.00439006, marker error: RMS=0.00987709, max=0.0341462 (Top.Head)
-Frame 110 (t=0.936333):	total squared error = 0.00449196, marker error: RMS=0.00999106, max=0.0339796 (Top.Head)
-Frame 111 (t=0.9405):	total squared error = 0.00461236, marker error: RMS=0.0101241, max=0.0342364 (Top.Head)
-Frame 112 (t=0.944667):	total squared error = 0.00472065, marker error: RMS=0.0102422, max=0.0340491 (Top.Head)
-Frame 113 (t=0.948833):	total squared error = 0.0048393, marker error: RMS=0.0103702, max=0.0340773 (Top.Head)
-Frame 114 (t=0.953):	total squared error = 0.00495146, marker error: RMS=0.0104896, max=0.0341155 (Top.Head)
-Frame 115 (t=0.957167):	total squared error = 0.0050421, marker error: RMS=0.0105852, max=0.0339994 (Top.Head)
-Frame 116 (t=0.961333):	total squared error = 0.00513262, marker error: RMS=0.0106798, max=0.0339555 (Top.Head)
-Frame 117 (t=0.9655):	total squared error = 0.0051983, marker error: RMS=0.0107479, max=0.0339815 (Top.Head)
-Frame 118 (t=0.969667):	total squared error = 0.00524479, marker error: RMS=0.0107959, max=0.0338541 (Top.Head)
-Frame 119 (t=0.973833):	total squared error = 0.00527117, marker error: RMS=0.010823, max=0.0338091 (Top.Head)
-Frame 120 (t=0.978):	total squared error = 0.00527026, marker error: RMS=0.0108221, max=0.0336411 (Top.Head)
-Frame 121 (t=0.982167):	total squared error = 0.00524917, marker error: RMS=0.0108004, max=0.0336038 (Top.Head)
-Frame 122 (t=0.986333):	total squared error = 0.0052062, marker error: RMS=0.0107561, max=0.0334795 (Top.Head)
-Frame 123 (t=0.9905):	total squared error = 0.00514373, marker error: RMS=0.0106914, max=0.0332979 (Top.Head)
-Frame 124 (t=0.994667):	total squared error = 0.00506717, marker error: RMS=0.0106115, max=0.033068 (Top.Head)
-Frame 125 (t=0.998833):	total squared error = 0.00496743, marker error: RMS=0.0105065, max=0.032751 (Top.Head)
-Frame 126 (t=1.003):	total squared error = 0.00486703, marker error: RMS=0.0103998, max=0.0325558 (Top.Head)
-Frame 127 (t=1.00717):	total squared error = 0.00476318, marker error: RMS=0.0102883, max=0.0324226 (Top.Head)
-Frame 128 (t=1.01133):	total squared error = 0.00465306, marker error: RMS=0.0101686, max=0.0322233 (Top.Head)
-Frame 129 (t=1.0155):	total squared error = 0.00454489, marker error: RMS=0.0100498, max=0.0319745 (Top.Head)
-Frame 130 (t=1.01967):	total squared error = 0.00443765, marker error: RMS=0.00993048, max=0.0318022 (Top.Head)
-Frame 131 (t=1.02383):	total squared error = 0.00430306, marker error: RMS=0.00977873, max=0.03153 (Top.Head)
-Frame 132 (t=1.028):	total squared error = 0.00420421, marker error: RMS=0.00966576, max=0.0313167 (Top.Head)
-Frame 133 (t=1.03217):	total squared error = 0.00411469, marker error: RMS=0.0095623, max=0.0311514 (Top.Head)
-Frame 134 (t=1.03633):	total squared error = 0.00403406, marker error: RMS=0.00946814, max=0.0309645 (Top.Head)
-Frame 135 (t=1.0405):	total squared error = 0.00395951, marker error: RMS=0.00938025, max=0.0307355 (Top.Head)
-Frame 136 (t=1.04467):	total squared error = 0.00387408, marker error: RMS=0.0092785, max=0.0305562 (Top.Head)
-Frame 137 (t=1.04883):	total squared error = 0.00381833, marker error: RMS=0.0092115, max=0.0304421 (Top.Head)
-Frame 138 (t=1.053):	total squared error = 0.00376717, marker error: RMS=0.00914959, max=0.0303957 (Top.Head)
-Frame 139 (t=1.05717):	total squared error = 0.00372256, marker error: RMS=0.00909525, max=0.0302416 (Top.Head)
-Frame 140 (t=1.06133):	total squared error = 0.0036891, marker error: RMS=0.00905429, max=0.0301027 (Top.Head)
-Frame 141 (t=1.0655):	total squared error = 0.00363273, marker error: RMS=0.00898484, max=0.0300004 (Top.Head)
-Frame 142 (t=1.06967):	total squared error = 0.0036025, marker error: RMS=0.00894737, max=0.0300005 (Top.Head)
-Frame 143 (t=1.07383):	total squared error = 0.0035738, marker error: RMS=0.00891167, max=0.0298324 (Top.Head)
-Frame 144 (t=1.078):	total squared error = 0.00355196, marker error: RMS=0.0088844, max=0.0299027 (Top.Head)
-Frame 145 (t=1.08217):	total squared error = 0.00352947, marker error: RMS=0.00885622, max=0.0299229 (Top.Head)
-Frame 146 (t=1.08633):	total squared error = 0.00348759, marker error: RMS=0.00880353, max=0.0299176 (Top.Head)
-Frame 147 (t=1.0905):	total squared error = 0.0034642, marker error: RMS=0.00877395, max=0.0299768 (Top.Head)
-Frame 148 (t=1.09467):	total squared error = 0.00343564, marker error: RMS=0.00873771, max=0.0299986 (Top.Head)
-Frame 149 (t=1.09883):	total squared error = 0.00341119, marker error: RMS=0.00870656, max=0.0300547 (Top.Head)
-Frame 150 (t=1.103):	total squared error = 0.00338487, marker error: RMS=0.00867291, max=0.0301258 (Top.Head)
-Frame 151 (t=1.10717):	total squared error = 0.00336011, marker error: RMS=0.00864112, max=0.0303239 (Top.Head)
-Frame 152 (t=1.11133):	total squared error = 0.00333871, marker error: RMS=0.00861357, max=0.0304248 (Top.Head)
-Frame 153 (t=1.1155):	total squared error = 0.00332217, marker error: RMS=0.00859221, max=0.0305453 (Top.Head)
-Frame 154 (t=1.11967):	total squared error = 0.00331518, marker error: RMS=0.00858316, max=0.0307719 (Top.Head)
-Frame 155 (t=1.12383):	total squared error = 0.00331321, marker error: RMS=0.00858061, max=0.0309499 (Top.Head)
-Frame 156 (t=1.128):	total squared error = 0.00330345, marker error: RMS=0.00856796, max=0.03116 (Top.Head)
-Frame 157 (t=1.13217):	total squared error = 0.00332354, marker error: RMS=0.00859397, max=0.0313201 (Top.Head)
-Frame 158 (t=1.13633):	total squared error = 0.00334546, marker error: RMS=0.00862227, max=0.0315145 (Top.Head)
-Frame 159 (t=1.1405):	total squared error = 0.00335868, marker error: RMS=0.0086393, max=0.0317523 (Top.Head)
-Frame 160 (t=1.14467):	total squared error = 0.00340249, marker error: RMS=0.00869546, max=0.0320081 (Top.Head)
-Frame 161 (t=1.14883):	total squared error = 0.00344678, marker error: RMS=0.00875186, max=0.0321 (Top.Head)
-Frame 162 (t=1.153):	total squared error = 0.00347627, marker error: RMS=0.00878922, max=0.0323314 (Top.Head)
-Frame 163 (t=1.15717):	total squared error = 0.00352371, marker error: RMS=0.00884899, max=0.032517 (Top.Head)
-Frame 164 (t=1.16133):	total squared error = 0.00357978, marker error: RMS=0.00891912, max=0.0326364 (Top.Head)
-Frame 165 (t=1.1655):	total squared error = 0.00361146, marker error: RMS=0.0089585, max=0.032858 (Top.Head)
-Frame 166 (t=1.16967):	total squared error = 0.00365498, marker error: RMS=0.00901232, max=0.0330263 (Top.Head)
-Frame 167 (t=1.17383):	total squared error = 0.00369501, marker error: RMS=0.00906153, max=0.0331494 (Top.Head)
-Frame 168 (t=1.178):	total squared error = 0.0037288, marker error: RMS=0.00910286, max=0.0333095 (Top.Head)
-Frame 169 (t=1.18217):	total squared error = 0.00376104, marker error: RMS=0.00914213, max=0.0336236 (Top.Head)
-Frame 170 (t=1.18633):	total squared error = 0.00378946, marker error: RMS=0.00917661, max=0.0336878 (Top.Head)
-Frame 171 (t=1.1905):	total squared error = 0.00380524, marker error: RMS=0.0091957, max=0.0336261 (Top.Head)
-Frame 172 (t=1.19467):	total squared error = 0.00380601, marker error: RMS=0.00919663, max=0.0337865 (Top.Head)
-Frame 173 (t=1.19883):	total squared error = 0.00382669, marker error: RMS=0.00922158, max=0.0339209 (Top.Head)
-Frame 174 (t=1.203):	total squared error = 0.0038384, marker error: RMS=0.00923568, max=0.0340425 (Top.Head)
-Frame 175 (t=1.20717):	total squared error = 0.00384894, marker error: RMS=0.00924835, max=0.0340235 (Top.Head)
-Frame 176 (t=1.21133):	total squared error = 0.00386922, marker error: RMS=0.00927268, max=0.0342784 (Top.Head)
-Frame 177 (t=1.2155):	total squared error = 0.00388496, marker error: RMS=0.00929153, max=0.0343555 (Top.Head)
-Frame 178 (t=1.21967):	total squared error = 0.0039041, marker error: RMS=0.00931439, max=0.0344327 (Top.Head)
-Frame 179 (t=1.22383):	total squared error = 0.00392104, marker error: RMS=0.00933457, max=0.0345594 (Top.Head)
-Frame 180 (t=1.228):	total squared error = 0.00394055, marker error: RMS=0.00935777, max=0.0345146 (Top.Head)
-Frame 181 (t=1.23217):	total squared error = 0.00396294, marker error: RMS=0.00938432, max=0.0347852 (Top.Head)
-Frame 182 (t=1.23633):	total squared error = 0.00397714, marker error: RMS=0.00940111, max=0.0347033 (Top.Head)
-Frame 183 (t=1.2405):	total squared error = 0.0039981, marker error: RMS=0.00942585, max=0.0349517 (Top.Head)
-Frame 184 (t=1.24467):	total squared error = 0.00401675, marker error: RMS=0.00944781, max=0.0350391 (Top.Head)
-Frame 185 (t=1.24883):	total squared error = 0.00403423, marker error: RMS=0.00946834, max=0.0352074 (Top.Head)
-Frame 186 (t=1.253):	total squared error = 0.0040459, marker error: RMS=0.00948203, max=0.0352615 (Top.Head)
-Frame 187 (t=1.25717):	total squared error = 0.00406467, marker error: RMS=0.009504, max=0.0353644 (Top.Head)
-Frame 188 (t=1.26133):	total squared error = 0.00408073, marker error: RMS=0.00952275, max=0.0354736 (Top.Head)
-Frame 189 (t=1.2655):	total squared error = 0.00409329, marker error: RMS=0.00953739, max=0.0355917 (Top.Head)
-Frame 190 (t=1.26967):	total squared error = 0.00410685, marker error: RMS=0.00955319, max=0.0356803 (Top.Head)
-Frame 191 (t=1.27383):	total squared error = 0.00412405, marker error: RMS=0.00957317, max=0.0357285 (Top.Head)
-Frame 192 (t=1.278):	total squared error = 0.00413377, marker error: RMS=0.00958444, max=0.0358098 (Top.Head)
-Frame 193 (t=1.28217):	total squared error = 0.00414822, marker error: RMS=0.00960118, max=0.0358092 (Top.Head)
-Frame 194 (t=1.28633):	total squared error = 0.00415964, marker error: RMS=0.00961438, max=0.035927 (Top.Head)
-Frame 195 (t=1.2905):	total squared error = 0.00417044, marker error: RMS=0.00962686, max=0.0359959 (Top.Head)
-Frame 196 (t=1.29467):	total squared error = 0.004188, marker error: RMS=0.00964711, max=0.0360337 (Top.Head)
-Frame 197 (t=1.29883):	total squared error = 0.00420126, marker error: RMS=0.00966236, max=0.0361257 (Top.Head)
-Frame 198 (t=1.303):	total squared error = 0.00421123, marker error: RMS=0.00967382, max=0.0362016 (Top.Head)
-Frame 199 (t=1.30717):	total squared error = 0.00422077, marker error: RMS=0.00968478, max=0.0362052 (Top.Head)
-Frame 200 (t=1.31133):	total squared error = 0.00422974, marker error: RMS=0.00969507, max=0.036139 (Top.Head)
-Frame 201 (t=1.3155):	total squared error = 0.00423573, marker error: RMS=0.00970192, max=0.036181 (Top.Head)
-Frame 202 (t=1.31967):	total squared error = 0.00424496, marker error: RMS=0.00971249, max=0.0362617 (Top.Head)
-Frame 203 (t=1.32383):	total squared error = 0.00424567, marker error: RMS=0.0097133, max=0.0361707 (Top.Head)
-Frame 204 (t=1.328):	total squared error = 0.00424382, marker error: RMS=0.00971118, max=0.0361725 (Top.Head)
-Frame 205 (t=1.33217):	total squared error = 0.00423405, marker error: RMS=0.0097, max=0.0362238 (Top.Head)
-Frame 206 (t=1.33633):	total squared error = 0.00421937, marker error: RMS=0.00968317, max=0.0361698 (Top.Head)
-Frame 207 (t=1.3405):	total squared error = 0.0042024, marker error: RMS=0.00966368, max=0.0360843 (Top.Head)
-Frame 208 (t=1.34467):	total squared error = 0.00417703, marker error: RMS=0.00963447, max=0.035918 (Top.Head)
-Frame 209 (t=1.34883):	total squared error = 0.00415468, marker error: RMS=0.00960865, max=0.0358601 (Top.Head)
-Frame 210 (t=1.353):	total squared error = 0.00412344, marker error: RMS=0.00957246, max=0.0359232 (Top.Head)
-Frame 211 (t=1.35717):	total squared error = 0.00408309, marker error: RMS=0.00952551, max=0.0356249 (Top.Head)
-Frame 212 (t=1.36133):	total squared error = 0.00404011, marker error: RMS=0.00947524, max=0.0355761 (Top.Head)
-Frame 213 (t=1.3655):	total squared error = 0.00399628, marker error: RMS=0.0094237, max=0.0353238 (Top.Head)
-Frame 214 (t=1.36967):	total squared error = 0.00396067, marker error: RMS=0.00938163, max=0.0352862 (Top.Head)
-Frame 215 (t=1.37383):	total squared error = 0.0039227, marker error: RMS=0.00933655, max=0.0350339 (Top.Head)
-Frame 216 (t=1.378):	total squared error = 0.00388795, marker error: RMS=0.00929511, max=0.0350046 (Top.Head)
-Frame 217 (t=1.38217):	total squared error = 0.00385776, marker error: RMS=0.00925894, max=0.0348385 (Top.Head)
-Frame 218 (t=1.38633):	total squared error = 0.00383467, marker error: RMS=0.00923119, max=0.034719 (Top.Head)
-Frame 219 (t=1.3905):	total squared error = 0.00381647, marker error: RMS=0.00920925, max=0.0345256 (Top.Head)
-Frame 220 (t=1.39467):	total squared error = 0.00380546, marker error: RMS=0.00919597, max=0.0343585 (Top.Head)
-Frame 221 (t=1.39883):	total squared error = 0.00380855, marker error: RMS=0.0091997, max=0.0343497 (Top.Head)
-Frame 222 (t=1.403):	total squared error = 0.00382181, marker error: RMS=0.0092157, max=0.0341773 (Top.Head)
-Frame 223 (t=1.40717):	total squared error = 0.00384052, marker error: RMS=0.00923823, max=0.0341113 (Top.Head)
-Frame 224 (t=1.41133):	total squared error = 0.00386992, marker error: RMS=0.00927352, max=0.0340684 (Top.Head)
-Frame 225 (t=1.4155):	total squared error = 0.0039175, marker error: RMS=0.00933036, max=0.0342825 (Top.Head)
-Frame 226 (t=1.41967):	total squared error = 0.00395443, marker error: RMS=0.00937423, max=0.0339978 (Top.Head)
-Frame 227 (t=1.42383):	total squared error = 0.00400694, marker error: RMS=0.00943626, max=0.0341623 (Top.Head)
-Frame 228 (t=1.428):	total squared error = 0.00405748, marker error: RMS=0.00949559, max=0.0339585 (Top.Head)
-Frame 229 (t=1.43217):	total squared error = 0.00411612, marker error: RMS=0.00956396, max=0.0340239 (Top.Head)
-Frame 230 (t=1.43633):	total squared error = 0.00417433, marker error: RMS=0.00963135, max=0.0340035 (Top.Head)
-Frame 231 (t=1.4405):	total squared error = 0.00422104, marker error: RMS=0.00968509, max=0.0340215 (Top.Head)
-Frame 232 (t=1.44467):	total squared error = 0.00426989, marker error: RMS=0.00974096, max=0.034104 (Top.Head)
-Frame 233 (t=1.44883):	total squared error = 0.00431648, marker error: RMS=0.00979397, max=0.0340304 (Top.Head)
-Frame 234 (t=1.453):	total squared error = 0.00434118, marker error: RMS=0.00982195, max=0.0338661 (Top.Head)
-Frame 235 (t=1.45717):	total squared error = 0.00435717, marker error: RMS=0.00984002, max=0.0338145 (Top.Head)
-Frame 236 (t=1.46133):	total squared error = 0.00436902, marker error: RMS=0.00985339, max=0.0339654 (Top.Head)
-Frame 237 (t=1.4655):	total squared error = 0.00436013, marker error: RMS=0.00984336, max=0.0335742 (Top.Head)
-Frame 238 (t=1.46967):	total squared error = 0.00433406, marker error: RMS=0.00981389, max=0.0336728 (Top.Head)
-Frame 239 (t=1.47383):	total squared error = 0.00430139, marker error: RMS=0.00977683, max=0.0336149 (Top.Head)
-Frame 240 (t=1.478):	total squared error = 0.00423675, marker error: RMS=0.00970309, max=0.0334437 (Top.Head)
-Frame 241 (t=1.48217):	total squared error = 0.00417907, marker error: RMS=0.00963681, max=0.0331887 (Top.Head)
-InverseKinematicsTool completed 241 frames in 1.365s
-
-IK compute time = 1472ms
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\AutoPlaced\S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S01_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S01\Models\Scaled\S01_RRA_Model_newmass.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\AutoPlaced\S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S02_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S02\Models\Scaled\S02_RRA_Model_newmass.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\AutoPlaced\S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model S04_Scaled_SL from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S04\Models\Scaled\S04_RRA_Model_newmass.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\AutoPlaced\S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S05_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S05\Models\Scaled\S05_RRA_Model_newmass.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\AutoPlaced\S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S06_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S06\Models\Scaled\S06_RRA_Model_newmass.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\AutoPlaced\S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S08_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S08\Models\Scaled\S08_RRA_Model_newmass.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\AutoPlaced\S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S09_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S09\Models\Scaled\S09_RRA_Model_newmass.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\AutoPlaced\S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis.osim
+Loaded model SF_S10_Scaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\AbleBodied_Dataset\S10\Models\Scaled\S10_RRA_Model_newmass.osim

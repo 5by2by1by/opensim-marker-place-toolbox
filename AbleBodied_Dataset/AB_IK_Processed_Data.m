@@ -167,3 +167,15 @@ legend('1mm','2mm','3mm','4mm','5mm','6mm','7mm','8mm','9mm','10mm','20mm','30mm
 title('Effect of convergence criteria strictness')
 ylabel('Normalized IK error')
 xlabel('Time per subject (s)')
+
+figure
+hold on
+
+for i = 1:length(convTypes)
+    errorbar(timeAvg(i),errGenPrefMean{i}(2),errGenPrefStd{i}(2),errGenPrefStd{i}(2),timeStd(i),timeStd(i),'o')
+end
+
+legend('1mm','2mm','3mm','4mm','5mm','6mm','7mm','8mm','9mm','10mm','20mm','30mm','40mm','50mm');
+title('Effect of convergence criteria strictness')
+ylabel('Raw IK error')
+xlabel('Time per subject (s)')
