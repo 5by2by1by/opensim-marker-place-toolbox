@@ -202,6 +202,54 @@ figname = [figDir dataSetName '_RMSerr_indivSubj_PSF'];
 saveas(figure1,figname,'fig');
 saveas(figure1,figname,'png');
 
+%% Plot Marker error MAX for manually vs autoplaced markers preferred speed
+
+% Create figure
+figure1 = figure;
+ 
+% Create axes
+axes1 = axes('Parent',figure1,...
+'XTickLabel',{'Standard Placement','Auto-Placement'},'XTick',[1 2],...
+'FontSize',14);
+% ylim(axes1,[0 0.017]);
+% xlim(axes1,[0.5 2.5]);
+box(axes1,'on');
+hold(axes1,'all');
+
+% Create multiple lines using matrix input to bar
+bar1 = bar(errPrefMax,'Parent',axes1);
+for i = 1:numSubj
+    set(bar1(i),'DisplayName',subjNames{i});
+end
+
+set(bar1,'BarWidth',1);    % The bars will now touch each other
+% set(bar1(1),'FaceColor',[.5 .5 1]);
+
+numgroups = size(errPrefMax, 1); 
+numbars = size(errPrefMax, 2); 
+groupwidth = min(0.8, numbars/(numbars+1.5));
+
+for i = 1:numbars
+      % Based on barweb.m by Bolu Ajiboye from MATLAB File Exchange
+      x = (1:numgroups) - groupwidth/2 + (2*i-1) * groupwidth / (2*numbars);  % Aligning error bar with individual bar
+      errorbar(x, errPrefMax(:,i), errPrefMaxStd(:,i), 'k', 'linestyle', 'none');
+end
+ 
+% Create ylabel
+ylabel('Avg. max (m)','FontSize',13);
+% if IK_tasks==1;daspect([800 1 1]);end
+ 
+% Create title
+title('Preferred Speed Marker Error Max','FontSize',14);
+ 
+% Create legend
+legend1 = legend(axes1,bar1);
+
+figname = [figDir dataSetName '_MAXerr_indivSubj_PSF'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
+
+
 %% Plot Marker error RMS for manually vs autoplaced markers slow speed
 
 % Create figure
@@ -246,6 +294,53 @@ title('-20% Cadence Marker Error RMS','FontSize',14);
 legend1 = legend(axes1,bar1);
 
 figname = [figDir dataSetName '_RMSerr_indivSubj_M20'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
+
+%% Plot Marker error MAX for manually vs autoplaced marker slow speed
+
+% Create figure
+figure1 = figure;
+ 
+% Create axes
+axes1 = axes('Parent',figure1,...
+'XTickLabel',{'Standard Placement','Auto-Placement'},'XTick',[1 2],...
+'FontSize',14);
+% ylim(axes1,[0 0.017]);
+% xlim(axes1,[0.5 2.5]);
+box(axes1,'on');
+hold(axes1,'all');
+
+% Create multiple lines using matrix input to bar
+bar1 = bar(errSlowMax,'Parent',axes1);
+for i = 1:numSubj
+    set(bar1(i),'DisplayName',subjNames{i});
+end
+
+set(bar1,'BarWidth',1);    % The bars will now touch each other
+% set(bar1(1),'FaceColor',[.5 .5 1]);
+
+numgroups = size(errSlowMax, 1); 
+numbars = size(errSlowMax, 2); 
+groupwidth = min(0.8, numbars/(numbars+1.5));
+
+for i = 1:numbars
+      % Based on barweb.m by Bolu Ajiboye from MATLAB File Exchange
+      x = (1:numgroups) - groupwidth/2 + (2*i-1) * groupwidth / (2*numbars);  % Aligning error bar with individual bar
+      errorbar(x, errSlowMax(:,i), errSlowMaxStd(:,i), 'k', 'linestyle', 'none');
+end
+ 
+% Create ylabel
+ylabel('Avg. max (m)','FontSize',13);
+% if IK_tasks==1;daspect([800 1 1]);end
+ 
+% Create title
+title('Slow Speed Marker Error Max','FontSize',14);
+ 
+% Create legend
+legend1 = legend(axes1,bar1);
+
+figname = [figDir dataSetName '_MAXerr_indivSubj_M20'];
 saveas(figure1,figname,'fig');
 saveas(figure1,figname,'png');
 
@@ -296,6 +391,53 @@ figname = [figDir dataSetName '_RMSerr_indivSubj_P20'];
 saveas(figure1,figname,'fig');
 saveas(figure1,figname,'png');
 
+%% Plot Marker error MAX for manually vs autoplaced markers fast speed
+
+% Create figure
+figure1 = figure;
+ 
+% Create axes
+axes1 = axes('Parent',figure1,...
+'XTickLabel',{'Standard Placement','Auto-Placement'},'XTick',[1 2],...
+'FontSize',14);
+% ylim(axes1,[0 0.017]);
+% xlim(axes1,[0.5 2.5]);
+box(axes1,'on');
+hold(axes1,'all');
+
+% Create multiple lines using matrix input to bar
+bar1 = bar(errFastMax,'Parent',axes1);
+for i = 1:numSubj
+    set(bar1(i),'DisplayName',subjNames{i});
+end
+
+set(bar1,'BarWidth',1);    % The bars will now touch each other
+% set(bar1(1),'FaceColor',[.5 .5 1]);
+
+numgroups = size(errFastMax, 1); 
+numbars = size(errFastMax, 2); 
+groupwidth = min(0.8, numbars/(numbars+1.5));
+
+for i = 1:numbars
+      % Based on barweb.m by Bolu Ajiboye from MATLAB File Exchange
+      x = (1:numgroups) - groupwidth/2 + (2*i-1) * groupwidth / (2*numbars);  % Aligning error bar with individual bar
+      errorbar(x, errFastMax(:,i), errFastMaxStd(:,i), 'k', 'linestyle', 'none');
+end
+ 
+% Create ylabel
+ylabel('Avg. max (m)','FontSize',13);
+% if IK_tasks==1;daspect([800 1 1]);end
+ 
+% Create title
+title('Fasterred Speed Marker Error Max','FontSize',14);
+ 
+% Create legend
+legend1 = legend(axes1,bar1);
+
+figname = [figDir dataSetName '_MAXerr_indivSubj_P20'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
+
 %% PREF SPEED Plot Marker error RMS all subjects averaged
 % Create figure
 figure1 = figure;
@@ -330,6 +472,43 @@ ylabel('Avg. RMS (m)','FontSize',13);
 title('Preferred Speed Marker Error RMS','FontSize',14);
 
 figname = [figDir dataSetName '_RMSerr_aggSubj_PSF'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
+
+%% PREF SPEED Plot Marker error MAX all subjects averaged
+% Create figure
+figure1 = figure;
+ 
+% Create axes
+axes1 = axes('Parent',figure1,...
+'XTickLabel',{'Standard Placement','Auto-Placement'},'XTick',[1 2],...
+'FontSize',14);
+% ylim(axes1,[0 0.015]);
+% xlim(axes1,[0.5 2.5]);
+box(axes1,'on');
+hold(axes1,'all');
+
+% Create multiple lines using matrix input to bar
+bar1 = bar(errGenPrefMaxMean,'Parent',axes1);
+
+numgroups = size(errGenPrefMaxMean, 1); 
+numbars = size(errGenPrefMaxMean, 2); 
+groupwidth = min(0.8, numbars/(numbars+1.5));
+
+for i = 1:numbars
+      % Based on barweb.m by Bolu Ajiboye from MATLAB File Exchange
+      x = (1:numgroups) - groupwidth/2 + (2*i-1) * groupwidth / (2*numbars);  % Aligning error bar with individual bar
+      errorbar(x, errGenPrefMaxMean(:,i), errGenPrefMaxStd(:,i), 'k', 'linestyle', 'none');
+end
+ 
+% Create ylabel
+ylabel('Avg. RMS (m)','FontSize',13);
+% if IK_tasks==1;daspect([800 1 1]);end
+ 
+% Create title
+title('Preferred Speed Marker Error Max','FontSize',14);
+
+figname = [figDir dataSetName '_MAXerr_aggSubj_PSF'];
 saveas(figure1,figname,'fig');
 saveas(figure1,figname,'png');
 
@@ -371,6 +550,43 @@ figname = [figDir dataSetName '_RMSerr_aggSubj_P20'];
 saveas(figure1,figname,'fig');
 saveas(figure1,figname,'png');
 
+%% FAST SPEED Plot Marker error MAX all subjects averaged
+% Create figure
+figure1 = figure;
+ 
+% Create axes
+axes1 = axes('Parent',figure1,...
+'XTickLabel',{'Standard Placement','Auto-Placement'},'XTick',[1 2],...
+'FontSize',14);
+% ylim(axes1,[0 0.015]);
+% xlim(axes1,[0.5 2.5]);
+box(axes1,'on');
+hold(axes1,'all');
+
+% Create multiple lines using matrix input to bar
+bar1 = bar(errGenFastMaxMean,'Parent',axes1);
+
+numgroups = size(errGenFastMaxMean, 1); 
+numbars = size(errGenFastMaxMean, 2); 
+groupwidth = min(0.8, numbars/(numbars+1.5));
+
+for i = 1:numbars
+      % Based on barweb.m by Bolu Ajiboye from MATLAB File Exchange
+      x = (1:numgroups) - groupwidth/2 + (2*i-1) * groupwidth / (2*numbars);  % Aligning error bar with individual bar
+      errorbar(x, errGenFastMaxMean(:,i), errGenFastMaxStd(:,i), 'k', 'linestyle', 'none');
+end
+ 
+% Create ylabel
+ylabel('Avg. RMS (m)','FontSize',13);
+% if IK_tasks==1;daspect([800 1 1]);end
+ 
+% Create title
+title('Fast Speed Marker Error Max','FontSize',14);
+
+figname = [figDir dataSetName '_MAXerr_aggSubj_P20'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
+
 %% SLOW SPEED Plot Marker error RMS all subjects averaged
 % Create figure
 figure1 = figure;
@@ -405,6 +621,127 @@ ylabel('Avg. RMS (m)','FontSize',13);
 title('Slow Speed Marker Error RMS','FontSize',14);
 
 figname = [figDir dataSetName '_RMSerr_aggSubj_M20'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
+
+%% SLOW SPEED Plot Marker error MAX all subjects averaged
+% Create figure
+figure1 = figure;
+ 
+% Create axes
+axes1 = axes('Parent',figure1,...
+'XTickLabel',{'Standard Placement','Auto-Placement'},'XTick',[1 2],...
+'FontSize',14);
+% ylim(axes1,[0 0.015]);
+% xlim(axes1,[0.5 2.5]);
+box(axes1,'on');
+hold(axes1,'all');
+
+% Create multiple lines using matrix input to bar
+bar1 = bar(errGenSlowMaxMean,'Parent',axes1);
+
+numgroups = size(errGenSlowMaxMean, 1); 
+numbars = size(errGenSlowMaxMean, 2); 
+groupwidth = min(0.8, numbars/(numbars+1.5));
+
+for i = 1:numbars
+      % Based on barweb.m by Bolu Ajiboye from MATLAB File Exchange
+      x = (1:numgroups) - groupwidth/2 + (2*i-1) * groupwidth / (2*numbars);  % Aligning error bar with individual bar
+      errorbar(x, errGenSlowMaxMean(:,i), errGenSlowMaxStd(:,i), 'k', 'linestyle', 'none');
+end
+ 
+% Create ylabel
+ylabel('Avg. RMS (m)','FontSize',13);
+% if IK_tasks==1;daspect([800 1 1]);end
+ 
+% Create title
+title('Slow Speed Marker Error Max','FontSize',14);
+
+figname = [figDir dataSetName '_MAXerr_aggSubj_M20'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
+
+%% ALL SPEED Plot Marker error RMS all subjects averaged
+% Create figure
+figure1 = figure;
+ 
+% Create axes
+axes1 = axes('Parent',figure1,...
+'XTickLabel',{'M20','PSF','P20'},'XTick',[1 2 3],...
+'FontSize',14);
+% ylim(axes1,[0 0.015]);
+% xlim(axes1,[0.5 2.5]);
+box(axes1,'on');
+hold(axes1,'all');
+
+errGenAllMean = [errGenSlowMean' ; errGenPrefMean' ; errGenFastMean'];
+errGenAllStd = [errGenSlowStd' ; errGenPrefStd' ; errGenFastStd'];
+
+% Create multiple lines using matrix input to bar
+bar1 = bar(errGenAllMean,'Parent',axes1);
+
+numgroups = size(errGenAllMean, 1); 
+numbars = size(errGenAllMean, 2); 
+groupwidth = min(0.8, numbars/(numbars+1.5));
+
+for i = 1:numbars
+      % Based on barweb.m by Bolu Ajiboye from MATLAB File Exchange
+      x = (1:numgroups) - groupwidth/2 + (2*i-1) * groupwidth / (2*numbars);  % Aligning error bar with individual bar
+      errorbar(x, errGenAllMean(:,i), errGenAllStd(:,i), 'k', 'linestyle', 'none','HandleVisibility','off');
+end
+ 
+% Create ylabel
+ylabel('Avg. RMS (m)');
+% if IK_tasks==1;daspect([800 1 1]);end
+ 
+% Create title
+title('Marker Error RMS');
+
+legend('Manual','Refined')
+
+figname = [figDir dataSetName '_RMSerr_aggSubj_allSpeed'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
+
+%% ALL SPEED Plot Marker error MAX all subjects averaged
+% Create figure
+figure1 = figure;
+ 
+% Create axes
+axes1 = axes('Parent',figure1,...
+'XTickLabel',{'M20','PSF','P20'},'XTick',[1 2 3],...
+'FontSize',14);
+% ylim(axes1,[0 0.015]);
+% xlim(axes1,[0.5 2.5]);
+box(axes1,'on');
+hold(axes1,'all');
+
+errGenAllMaxMean = [errGenSlowMaxMean' ; errGenPrefMaxMean' ; errGenFastMaxMean'];
+errGenAllMaxStd = [errGenSlowMaxStd' ; errGenPrefMaxStd' ; errGenFastMaxStd'];
+
+% Create multiple lines using matrix input to bar
+bar1 = bar(errGenAllMaxMean,'Parent',axes1);
+
+numgroups = size(errGenAllMaxMean, 1); 
+numbars = size(errGenAllMaxMean, 2); 
+groupwidth = min(0.8, numbars/(numbars+1.5));
+
+for i = 1:numbars
+      % Based on barweb.m by Bolu Ajiboye from MATLAB File Exchange
+      x = (1:numgroups) - groupwidth/2 + (2*i-1) * groupwidth / (2*numbars);  % Aligning error bar with individual bar
+      errorbar(x, errGenAllMaxMean(:,i), errGenAllMaxStd(:,i), 'k', 'linestyle', 'none','HandleVisibility','off');
+end
+ 
+% Create ylabel
+ylabel('Avg. max error (m)');
+% if IK_tasks==1;daspect([800 1 1]);end
+ 
+% Create title
+title('Marker Error Max');
+
+% legend('Manual','Refined')
+
+figname = [figDir dataSetName '_MAXerr_aggSubj_allSpeed'];
 saveas(figure1,figname,'fig');
 saveas(figure1,figname,'png');
 
