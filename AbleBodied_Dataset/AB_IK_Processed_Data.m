@@ -9,11 +9,13 @@ close all
 %% Load data
 
 convTypes = [1 2 3 4 5 6 7 8 9 10 20 30 40 50];
+figDir = 'Figures\';
 
 for convValue = 1:length(convTypes)
 
 dataSetName = ['10TiltLockedASIS' num2str(convTypes(convValue)) 'Conv'];
 logDir = ['Logs\thresh' num2str(convTypes(convValue)) ];
+% figDir = ['Figures\'];
 
 % figDir = ['Figures\' dataSetName '\'];
 % if ~exist(figDir, 'dir')
@@ -38,6 +40,10 @@ fprintf('parsing error statistics\n')
     errPrefStd = zeros(2,numSubj);
     errSlow = zeros(2,numSubj);
     errSlowStd = zeros(2,numSubj);
+    
+allErrPref = cell(1,2);
+allErrFast = cell(1,2); 
+allErrSlow = cell(1,2); 
 
 % speed = [];
 % if FAST_flag == 1;speed=1;end
@@ -69,40 +75,59 @@ for subj = 1:numSubj
                 errGenFastMax(placetype,trial + (5*(subj-1))) = fullErrData{subj}{1,3}{placetype,trial}(3,3);
                 errGenSlow(placetype,trial + (5*(subj-1))) = fullErrData{subj}{3,3}{placetype,trial}(1,3);
                 errGenSlowMax(placetype,trial + (5*(subj-1))) = fullErrData{subj}{3,3}{placetype,trial}(3,3);
+                
+                allErrPref{placetype} = cat(1,allErrPref{placetype}, fullErrData{subj}{2,2}{placetype,trial}(:,3)); 
+                allErrFast{placetype} = cat(1,allErrFast{placetype}, fullErrData{subj}{1,2}{placetype,trial}(:,3)); 
+                allErrSlow{placetype} = cat(1,allErrSlow{placetype}, fullErrData{subj}{3,2}{placetype,trial}(:,3)); 
             end
         end
 %     end
 end
 
-errGenPrefMean{convValue} = mean(errGenPref,2);
-errGenPrefMaxMean{convValue} = mean(errGenPrefMax,2);
-errGenPrefStd{convValue} = std(errGenPref,0,2);
-errGenPrefMaxStd{convValue} = std(errGenPrefMax,0,2);
+errGenPrefMean{convValue} = [mean(allErrPref{1}); mean(allErrPref{2})]*1000;
+% errGenPrefMaxMean = [mean(allErrPrefMax{1}); mean(allErrPrefMax{2})]*1000;
+errGenPrefStd{convValue} = [std(allErrPref{1}); std(allErrPref{2})]*1000;
+% errGenPrefMaxStd = [std(allErrPrefMax{1}); std(allErrPrefMax{2})]*1000;
+
+errGenFastMean{convValue} = [mean(allErrFast{1}); mean(allErrFast{2})]*1000;
+% errGenFastMaxMean = [mean(allErrFastMax{1}); mean(allErrFastMax{2})]*1000;
+errGenFastStd{convValue} = [std(allErrFast{1}); std(allErrFast{2})]*1000;
+% errGenFastMaxStd = [std(allErrFastMax{1}); std(allErrFastMax{2})]*1000;
+
+errGenSlowMean{convValue} = [mean(allErrSlow{1}); mean(allErrSlow{2})]*1000;
+% errGenSlowMaxMean = [mean(allErrSlowMax{1}); mean(allErrSlowMax{2})]*1000;
+errGenSlowStd{convValue} = [std(allErrSlow{1}); std(allErrSlow{2})]*1000;
+% errGenSlowMaxStd = [std(allErrSlowMax{1}); std(allErrSlowMax{2})]*1000;
+
+% errGenPrefMean{convValue} = mean(errGenPref,2);
+% errGenPrefMaxMean{convValue} = mean(errGenPrefMax,2);
+% errGenPrefStd{convValue} = std(errGenPref,0,2);
+% errGenPrefMaxStd{convValue} = std(errGenPrefMax,0,2);
 
 normErrPrefMean(convValue) = errGenPrefMean{convValue}(2)./errGenPrefMean{convValue}(1);
-normErrPrefMaxMean(convValue) = errGenPrefMaxMean{convValue}(2)./errGenPrefMaxMean{convValue}(1);
+% normErrPrefMaxMean(convValue) = errGenPrefMaxMean{convValue}(2)./errGenPrefMaxMean{convValue}(1);
 normErrPrefStd(convValue) = errGenPrefStd{convValue}(2)./errGenPrefMean{convValue}(1);
-normErrPrefMaxStd(convValue) = errGenPrefMaxStd{convValue}(2)./errGenPrefMaxMean{convValue}(1);
+% normErrPrefMaxStd(convValue) = errGenPrefMaxStd{convValue}(2)./errGenPrefMaxMean{convValue}(1);
 
-errGenFastMean{convValue} = mean(errGenFast,2);
-errGenFastMaxMean{convValue} = mean(errGenFastMax,2);
-errGenFastStd{convValue} = std(errGenFast,0,2);
-errGenFastMaxStd{convValue} = std(errGenFastMax,0,2);
+% errGenFastMean{convValue} = mean(errGenFast,2);
+% errGenFastMaxMean{convValue} = mean(errGenFastMax,2);
+% errGenFastStd{convValue} = std(errGenFast,0,2);
+% errGenFastMaxStd{convValue} = std(errGenFastMax,0,2);
 
 normErrFastMean(convValue) = errGenFastMean{convValue}(2)./errGenFastMean{convValue}(1);
-normErrFastMaxMean(convValue) = errGenFastMaxMean{convValue}(2)./errGenFastMaxMean{convValue}(1);
+% normErrFastMaxMean(convValue) = errGenFastMaxMean{convValue}(2)./errGenFastMaxMean{convValue}(1);
 normErrFastStd(convValue) = errGenFastStd{convValue}(2)./errGenFastMean{convValue}(1);
-normErrFastMaxStd(convValue) = errGenFastMaxStd{convValue}(2)./errGenFastMaxMean{convValue}(1);
+% normErrFastMaxStd(convValue) = errGenFastMaxStd{convValue}(2)./errGenFastMaxMean{convValue}(1);
 
-errGenSlowMean{convValue} = mean(errGenSlow,2);
-errGenSlowMaxMean{convValue} = mean(errGenSlowMax,2);
-errGenSlowStd{convValue} = std(errGenSlow,0,2);
-errGenSlowMaxStd{convValue} = std(errGenSlowMax,0,2);
+% errGenSlowMean{convValue} = mean(errGenSlow,2);
+% errGenSlowMaxMean{convValue} = mean(errGenSlowMax,2);
+% errGenSlowStd{convValue} = std(errGenSlow,0,2);
+% errGenSlowMaxStd{convValue} = std(errGenSlowMax,0,2);
 
 normErrSlowMean(convValue) = errGenSlowMean{convValue}(2)./errGenSlowMean{convValue}(1);
-normErrSlowMaxMean(convValue) = errGenSlowMaxMean{convValue}(2)./errGenSlowMaxMean{convValue}(1);
+% normErrSlowMaxMean(convValue) = errGenSlowMaxMean{convValue}(2)./errGenSlowMaxMean{convValue}(1);
 normErrSlowStd(convValue) = errGenSlowStd{convValue}(2)./errGenSlowMean{convValue}(1);
-normErrSlowMaxStd(convValue) = errGenSlowMaxStd{convValue}(2)./errGenSlowMaxMean{convValue}(1);
+% normErrSlowMaxStd(convValue) = errGenSlowMaxStd{convValue}(2)./errGenSlowMaxMean{convValue}(1);
 
 fprintf('complete\n')
 
@@ -156,11 +181,15 @@ end
 
 
 %% plot figure
-figure
+figure1 = figure();
+axes1 = axes('FontSize',12);
 hold on
 
+C = linspecer(14); 
+% axes('NextPlot','replacechildren', 'ColorOrder',C); 
+
 for i = 1:length(convTypes)
-    errorbar(timeAvg(i),normErrPrefMean(i),normErrPrefStd(i),normErrPrefStd(i),timeStd(i),timeStd(i),'o')
+    errorbar(timeAvg(i),normErrPrefMean(i),normErrPrefStd(i),normErrPrefStd(i),timeStd(i),timeStd(i),'o','MarkerSize',8,'MarkerEdgeColor','k','color',C(i,:),'MarkerFaceColor',C(i,:),'LineWidth',1)
 end
 
 legend('1mm','2mm','3mm','4mm','5mm','6mm','7mm','8mm','9mm','10mm','20mm','30mm','40mm','50mm');
@@ -168,14 +197,56 @@ title('Effect of convergence criteria strictness')
 ylabel('Normalized IK error')
 xlabel('Time per subject (s)')
 
-figure
+figname = [figDir 'convergence_pareto_normalized'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
+
+
+%% Plot convergence figure - raw error
+figure1 = figure();
+axes1 = axes('FontSize',14);
 hold on
 
-for i = 1:length(convTypes)
-    errorbar(timeAvg(i),errGenPrefMean{i}(2),errGenPrefStd{i}(2),errGenPrefStd{i}(2),timeStd(i),timeStd(i),'o')
+C = cbrewer('seq', 'Reds', 8);
+% C = cbrewer('div', 'RdGy', 8);
+% C = linspecer(14); 
+% axes('NextPlot','replacechildren', 'ColorOrder',C); 
+
+manualErrMean = errGenPrefMean{1}(1);
+manualErrStd = errGenPrefStd{1}(1);
+
+% plot([0 17000],[manualErrMean manualErrMean],'k','LineWidth',1);
+% plot([0 17000],[manualErrMean+manualErrStd manualErrMean+manualErrStd],'k--','LineWidth',1);
+% plot([0 17000],[manualErrMean-manualErrStd manualErrMean-manualErrStd],'k--','LineWidth',1);
+
+
+errorbar(0,manualErrMean,manualErrStd,manualErrStd,'o','MarkerSize',8,'MarkerEdgeColor','k','color','k','MarkerFaceColor',C(1,:),'LineWidth',1)
+% errorbar(0,manualErrMean,manualErrStd,manualErrStd,'o','MarkerSize',8,'MarkerEdgeColor','k','color','k','MarkerFaceColor','w','LineWidth',1)
+
+% convIndices = [1 2 3 4 5 10 14];
+convIndices = [14 10 5 4 3 2 1];
+
+ii = 1;
+
+for i = convIndices
+    errorbar(timeAvg(i),errGenPrefMean{i}(2),errGenPrefStd{i}(2),errGenPrefStd{i}(2),timeStd(i),timeStd(i),'o','MarkerSize',8,'MarkerEdgeColor','k','color','k','MarkerFaceColor',C(ii+1,:),'LineWidth',1)
+    ii = ii + 1;
 end
 
-legend('1mm','2mm','3mm','4mm','5mm','6mm','7mm','8mm','9mm','10mm','20mm','30mm','40mm','50mm');
+% errorbar(0,manualErrMean,manualErrStd,manualErrStd,'o','MarkerSize',8,'MarkerEdgeColor','k','color','k','MarkerFaceColor',C(8,:),'LineWidth',1)
+
+% legend1 = legend('1mm','2mm','3mm','4mm','5mm','10mm','50mm','Manual');
+legend1 = legend('Manual','50mm','10mm','5mm','4mm','3mm','2mm','1mm');
+% legend1 = legend('Manual', '1mm','2mm','3mm','4mm','5mm','6mm','7mm','8mm','9mm','10mm','20mm','30mm','40mm','50mm');
+set(legend1,'FontSize',12,'EdgeColor','w')
 title('Effect of convergence criteria strictness')
-ylabel('Raw IK error')
+ylabel('Avg. RMS error (mm)')
 xlabel('Time per subject (s)')
+
+xlim([-500 17000])
+ylim([5 14])
+axes1.XAxis.Exponent = 3;
+
+figname = [figDir 'convergence_pareto_raw'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
