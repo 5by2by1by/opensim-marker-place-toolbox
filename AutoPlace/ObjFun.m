@@ -1,6 +1,6 @@
 function cost = ObjFun(x,options)
 
-global  rmsCOST avgRMS divisor COST fileID iteration markerScale loop coord stepCount
+global  rmsCOST avgRMS COST iteration coord stepCount
      
 % override variables
 % divisor = 1;
@@ -120,7 +120,7 @@ else
     coord ' Steps from IC (mm): ' num2str(stepCount) ' time: ' num2str(toc)];
 end
 
-% disp(message)
+disp(message)
 
 strFormat = '%s';
 fprintf(options.fileID, strFormat, message);

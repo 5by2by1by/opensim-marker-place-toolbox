@@ -30,7 +30,7 @@ close all
 clear all
 clc
 
-global myModel fileID iteration
+global iteration
 
 import org.opensim.modeling.*
 
@@ -111,7 +111,7 @@ jointNames = {'socket'};
 iteration = 1;
 
 % create new file for log of marker search
-fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.txt'], 'w'); % myModel = 'A07_passive_manual_foot_markers.osim';
+options.fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.txt'], 'w'); % myModel = 'A07_passive_manual_foot_markers.osim';
 
 newName = [subject '_' prosType '_ROB_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
 newModelName = [modelDir newName];  % set name for new .osim model created after placing ROB markers
@@ -182,6 +182,7 @@ inputModel = preSocketJointModel;
 newName = [subject '_' prosType '_FULL_auto_marker_place_4DOF' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
 newModelName = [modelDir newName];  % set name for new .osim model created after placing markers
 
+options = struct();
 
 % Set model and algorithm options:
 options.IKsetup = genericSetupForIK;  % IK setup file

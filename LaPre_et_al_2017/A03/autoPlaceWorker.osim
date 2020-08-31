@@ -30,7 +30,7 @@
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 						<scale_factors> 1 1 1</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-						<transform> 0 0 0 0 0 0</transform>
+						<transform> -0 0 -0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
 						<show_axes>false</show_axes>
 						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -270,7 +270,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -286,7 +286,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -302,7 +302,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -316,7 +316,7 @@
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 						<scale_factors> 1.06517 1.06517 1.06517</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-						<transform> 0 0 0 0 0 0</transform>
+						<transform> -0 0 -0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
 						<show_axes>false</show_axes>
 						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -517,7 +517,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -531,7 +531,7 @@
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 						<scale_factors> 0.934543 0.934543 0.934543</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-						<transform> 0 0 0 0 0 0</transform>
+						<transform> -0 0 -0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
 						<show_axes>false</show_axes>
 						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -698,7 +698,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -714,7 +714,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -728,7 +728,7 @@
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 						<scale_factors> 1.13435 1.13435 1.13435</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-						<transform> 0 0 0 0 0 0</transform>
+						<transform> -0 0 -0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
 						<show_axes>false</show_axes>
 						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -893,7 +893,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -907,7 +907,7 @@
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 						<scale_factors> 0.948222 0.948222 0.948222</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-						<transform> 0 0 0 0 0 0</transform>
+						<transform> -0 0 -0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
 						<show_axes>false</show_axes>
 						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -1072,7 +1072,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -1086,7 +1086,7 @@
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 						<scale_factors> 0.948222 0.948222 0.948222</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-						<transform> 0 0 0 0 0 0</transform>
+						<transform> -0 0 -0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
 						<show_axes>false</show_axes>
 						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -1251,7 +1251,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -1265,7 +1265,7 @@
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 						<scale_factors> 0.948222 0.948222 0.948222</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-						<transform> 0 0 0 0 0 0</transform>
+						<transform> -0 0 -0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
 						<show_axes>false</show_axes>
 						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -1466,7 +1466,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -1480,7 +1480,7 @@
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 						<scale_factors> 0.934543 0.934543 0.934543</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-						<transform> 0 0 0 0 0 0</transform>
+						<transform> -0 0 -0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
 						<show_axes>false</show_axes>
 						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -1647,7 +1647,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -1663,7 +1663,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -1679,7 +1679,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 1.57 0 0 -0 0 -0</transform>
+									<transform> 1.57 0 -0 -0 0 -0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 0.001 0.001 0.001</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -1711,7 +1711,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 -0 0 -0</transform>
+									<transform> 0 0 -0 -0 0 -0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 0.001 0.001 0.001</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -1725,7 +1725,7 @@
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 						<scale_factors> 1.13435 1.13435 1.13435</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-						<transform> 0 0 0 0 0 0</transform>
+						<transform> -0 0 -0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
 						<show_axes>false</show_axes>
 						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -1757,7 +1757,7 @@
 							<!--Location of the joint in the child body specified in the child reference frame. For SIMM models, this vector is always the zero vector (i.e., the body reference frame coincides with the joint). -->
 							<location>0 0.0792621088144959 0</location>
 							<!--Orientation of the joint in the owing body specified in the owning body reference frame.  Euler XYZ body-fixed rotation angles are used to express the orientation. -->
-							<orientation>0 0 -0.01</orientation>
+							<orientation>0 0 0</orientation>
 							<!--Set holding the generalized coordinates (q's) that parmeterize this joint.-->
 							<CoordinateSet>
 								<objects>
@@ -1827,7 +1827,7 @@
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>true</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>true</locked>
+										<locked>false</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -1863,7 +1863,7 @@
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>true</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>true</locked>
+										<locked>false</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -1965,7 +1965,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 -0 0.026 -0</transform>
+									<transform> 0 0 -0 -0 0.026 -0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -1979,7 +1979,7 @@
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 						<scale_factors> 1.13435 1.13435 1.13435</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-						<transform> 0 0 0 0 0 0</transform>
+						<transform> -0 0 -0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
 						<show_axes>false</show_axes>
 						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -2049,7 +2049,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 1.57 0 0 -0 0 -0</transform>
+									<transform> 1.57 0 -0 -0 0 -0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 0.001 0.001 0.001</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -2081,7 +2081,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 -0 0 -0</transform>
+									<transform> 0 0 -0 -0 0 -0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 0.001 0.001 0.001</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -2095,7 +2095,7 @@
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 						<scale_factors> 0.948222 0.948222 0.948222</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-						<transform> 0 0 0 0 0 0</transform>
+						<transform> -0 0 -0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
 						<show_axes>false</show_axes>
 						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -2184,7 +2184,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 1.57 0 0 -0 0 -0</transform>
+									<transform> 1.57 0 -0 -0 0 -0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 0.0005 0.0005 0.0005</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -2216,7 +2216,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 -0 0 -0</transform>
+									<transform> 0 0 -0 -0 0 -0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 0.0005 0.0005 0.0005</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -2431,7 +2431,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -2447,7 +2447,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -2463,7 +2463,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -2479,7 +2479,7 @@
 									<!--Name of texture file .jpg, .bmp-->
 									<texture_file />
 									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-									<transform> 0 0 0 0 0 0</transform>
+									<transform> -0 0 -0 0 0 0</transform>
 									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 									<scale_factors> 1 1 1</scale_factors>
 									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
@@ -2493,7 +2493,7 @@
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 						<scale_factors> 1.09603 1.09603 1.09603</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-						<transform> 0 0 0 0 0 0</transform>
+						<transform> -0 0 -0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
 						<show_axes>false</show_axes>
 						<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -2553,7 +2553,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -2627,7 +2627,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -2701,7 +2701,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -2779,7 +2779,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -2857,7 +2857,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -2943,7 +2943,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -3017,7 +3017,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -3099,7 +3099,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -3173,7 +3173,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -3257,7 +3257,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -3339,7 +3339,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -3421,7 +3421,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -3503,7 +3503,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -3591,7 +3591,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -3679,7 +3679,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -3753,7 +3753,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -3827,7 +3827,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -3905,7 +3905,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4021,7 +4021,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4141,7 +4141,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4221,7 +4221,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4295,7 +4295,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4377,7 +4377,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4455,7 +4455,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4529,7 +4529,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4603,7 +4603,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4677,7 +4677,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4755,7 +4755,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4833,7 +4833,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4919,7 +4919,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -4993,7 +4993,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -5075,7 +5075,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -5149,7 +5149,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -5233,7 +5233,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -5315,7 +5315,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -5397,7 +5397,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -5479,7 +5479,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -5567,7 +5567,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -5655,7 +5655,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -5729,7 +5729,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -5803,7 +5803,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -5881,7 +5881,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -5997,7 +5997,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -6117,7 +6117,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -6197,7 +6197,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -6271,7 +6271,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -6345,7 +6345,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -6419,7 +6419,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -6493,7 +6493,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -6567,7 +6567,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -6641,7 +6641,7 @@
 							<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
 							<scale_factors> 1 1 1</scale_factors>
 							<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
-							<transform> 0 0 0 0 0 0</transform>
+							<transform> -0 0 -0 0 0 0</transform>
 							<!--Whether to show a coordinate frame-->
 							<show_axes>false</show_axes>
 							<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded Can be overriden for individual geometries-->
@@ -6763,7 +6763,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>torso</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.01237 0.432354 0.177948</location>
+					<location> 0.02137 0.436354 0.163948</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6771,7 +6771,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>torso</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0067575 0.453012 -0.174218</location>
+					<location> -0.0132425 0.468012 -0.160218</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6779,7 +6779,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pelvis</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.000998 0.0251303 0.139847</location>
+					<location> 0.010002 0.0361303 0.138847</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6787,7 +6787,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pelvis</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0151425 0.023449 -0.135766</location>
+					<location> 0.0168575 0.031449 -0.137766</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6795,7 +6795,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pelvis</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.193712 0.0882567 0.0460159</location>
+					<location> -0.194712 0.0882567 0.0450159</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6803,7 +6803,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pelvis</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.194023 0.0822334 -0.045903</location>
+					<location> -0.182023 0.0832334 -0.046903</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6851,7 +6851,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0547407 -0.185132 0.0764882</location>
+					<location> -0.0447407 -0.188132 0.0744882</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6859,7 +6859,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0106334 -0.181011 0.0903946</location>
+					<location> 0.0136334 -0.180011 0.0963946</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6867,7 +6867,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0112909 -0.256323 0.0823424</location>
+					<location> 0.0122909 -0.261323 0.0903424</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6875,7 +6875,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0542451 -0.259164 0.0663038</location>
+					<location> -0.0602451 -0.248164 0.0693038</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6899,7 +6899,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>tibia_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.00205136 -0.188898 0.071246</location>
+					<location> -0.000948638 -0.193898 0.075246</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6907,7 +6907,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>tibia_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0660633 -0.197069 0.0602922</location>
+					<location> -0.0680633 -0.207069 0.0682922</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6915,7 +6915,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>tibia_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0639346 -0.269971 0.0474791</location>
+					<location> -0.0719346 -0.271971 0.0564791</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6923,7 +6923,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>tibia_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.00606301 -0.265033 0.0619073</location>
+					<location> 0.00306301 -0.268033 0.0559073</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6947,7 +6947,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>calcn_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0257605 0.0293642 -0.0241338</location>
+					<location> -0.0177605 0.0333642 -0.0191338</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6955,7 +6955,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>calcn_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0104327 0.0160841 -0.0633447</location>
+					<location> -0.0164327 0.0190841 -0.0603447</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6963,7 +6963,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>calcn_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0181933 -0.00673777 -0.0003791</location>
+					<location> -0.0211933 -0.00273777 0.0016209</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6971,7 +6971,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>toes_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0781798 0.0323732 -0.0022001</location>
+					<location> 0.0831798 0.00937315 0.0107999</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6979,7 +6979,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0181282 -0.167629 -0.0727966</location>
+					<location> -0.0191282 -0.167629 -0.0727966</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6987,7 +6987,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0441169 -0.174377 -0.0601395</location>
+					<location> 0.0441169 -0.174377 -0.0591395</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7027,7 +7027,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pylon_socket</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0140661 0.12402 -0.0648116</location>
+					<location> -0.0180661 0.11802 -0.0618116</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7035,7 +7035,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pylon_socket</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0300327 0.137489 -0.0411787</location>
+					<location> 0.0330327 0.136489 -0.0391787</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7043,7 +7043,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pylon_socket</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0236697 0.0783406 -0.0346174</location>
+					<location> 0.0236697 0.0723406 -0.0406174</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7051,7 +7051,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pylon_socket</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0338994 0.0657972 -0.0394906</location>
+					<location> -0.0368994 0.0617972 -0.0414906</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7075,7 +7075,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>foot2</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.115884 0.00131606 0.00194529</location>
+					<location> -0.114884 0.00131606 0.00594529</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7083,7 +7083,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>foot2</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.104031 -0.0277491 0.0346531</location>
+					<location> -0.104031 -0.0217491 0.0246531</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7091,7 +7091,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>foot2</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.10779 -0.0271833 -0.0319243</location>
+					<location> -0.10979 -0.0211833 -0.0319243</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7107,7 +7107,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>toes_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0260784 0.0445427 -0.0527251</location>
+					<location> 0.0300784 0.0315427 -0.0517251</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7115,7 +7115,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>toes_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.00274072 -0.00530386 0.0411002</location>
+					<location> 0.00325928 0.00969614 0.0351002</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7123,7 +7123,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>foot2</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.100476 0.00051613 0.0406171</location>
+					<location> 0.100476 0.00451613 0.0406171</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7131,7 +7131,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>foot2</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0694272 -0.0187946 -0.0645257</location>
+					<location> 0.0564272 -0.0267946 -0.0645257</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7155,7 +7155,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>torso</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.073801 0.492222 0.00322343</location>
+					<location> -0.084801 0.498222 -0.000776568</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>

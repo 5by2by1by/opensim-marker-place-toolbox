@@ -33,7 +33,7 @@ clc
 
 %% Set directories and subject information
 
-global myModel fileID iteration
+global iteration
 
 import org.opensim.modeling.*
 
@@ -120,7 +120,7 @@ jointNames = {'socket'};
 iteration = 1;
 
 % Create new file for log of marker search
-fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss_Z')) '.txt'], 'w');
+options.fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss_Z')) '.txt'], 'w');
 
 newName = [subject '_' prosType '_ROBPROS_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
 newModelName = [modelDir newName];  % set name for new .osim model created after placing markers

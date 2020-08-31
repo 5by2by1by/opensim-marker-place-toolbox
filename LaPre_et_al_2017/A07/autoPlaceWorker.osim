@@ -1100,9 +1100,9 @@
 				<Body name="toes_r">
 					<mass>0.217449349991785</mass>
 					<mass_center> 0.0331794 0.00575365 -0.0167815</mass_center>
-					<inertia_xx>9.23175539490548e-05</inertia_xx>
+					<inertia_xx>9.23175539490548e-005</inertia_xx>
 					<inertia_yy>0.00018463510789811</inertia_yy>
-					<inertia_zz>9.23175539490548e-05</inertia_zz>
+					<inertia_zz>9.23175539490548e-005</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -1946,7 +1946,7 @@
 					<mass>0.301176385030171</mass>
 					<mass_center> 0.00402756 -0.0225351 0.000191788</mass_center>
 					<inertia_xx>0.00018463510789811</inertia_xx>
-					<inertia_yy>9.23175539490548e-05</inertia_yy>
+					<inertia_yy>9.23175539490548e-005</inertia_yy>
 					<inertia_zz>0.000276952661847164</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
@@ -2013,9 +2013,9 @@
 				<Body name="foot2">
 					<mass>0.200784256686781</mass>
 					<mass_center> 0.0151278 -0.00673936 -0.00101371</mass_center>
-					<inertia_xx>9.23175539490548e-05</inertia_xx>
+					<inertia_xx>9.23175539490548e-005</inertia_xx>
 					<inertia_yy>0.00018463510789811</inertia_yy>
-					<inertia_zz>9.23175539490548e-05</inertia_zz>
+					<inertia_zz>9.23175539490548e-005</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -6619,7 +6619,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>torso</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0258969 0.426282 0.192277</location>
+					<location> -0.0278969 0.424282 0.193277</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
